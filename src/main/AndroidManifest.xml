@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tuitioproject">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".reportpage" />
+        <activity android:name=".Upload" />
+        <activity android:name=".Showreport" />
+        <activity android:name=".Report" />
+        <activity
+            android:name=".StaffAccess"
+            android:label=""
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".ViewAttendance" />
+        <activity android:name=".ChechAtten" />
+        <activity android:name=".Viewstaff" />
+        <activity android:name=".Addstaff" />
+        <activity android:name=".ContentActivity" />
+        <activity android:name=".ViewStudent" />
+        <activity android:name=".Addstudent" />
+        <activity
+            android:name=".Add"
+            android:label=""
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".StaffViewAttendance" />
+        <activity android:name=".StaffstudentView" />
+        <activity android:name=".SplashScren">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
