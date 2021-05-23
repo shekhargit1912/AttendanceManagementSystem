@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewAttendance">
+
+    <Spinner
+        android:id="@+id/std"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="#14DBC9" />
+
+    <Spinner
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="#0794F5" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#DCE6E7"
+        android:gravity="center_horizontal"
+        android:text="SelectDate"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/showattend"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+
+            android:background="@drawable/buttongrad"
+            android:text="Show Present"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/showabsent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/buttonred"
+            android:text="Show Absent"
+            android:textAllCaps="false"
+
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

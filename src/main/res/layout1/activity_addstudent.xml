@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg4"
+    android:orientation="vertical"
+    tools:context=".Addstudent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="Student Registration"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_margin="25dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="8sp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/studentname"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter First Name"
+                                android:inputType="text"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/studentname1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Middle Name"
+                                android:inputType="text"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/studentname2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Last Name"
+                                android:inputType="text"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/registerno"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Your Register No."
+                                android:inputType="text"
+                                android:singleLine="true"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/classs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Your Class"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/divv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Your Division"
+                                android:inputType="text"
+                                android:singleLine="true"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/cast"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Your Cast"
+                                android:inputType="text"
+                                android:singleLine="true"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/dateofbirth"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Your Date of Birth"
+                                android:inputType="text"
+                                android:singleLine="true"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/mobileno"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Your Contact No"
+                                android:inputType="text"
+                                android:singleLine="true"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#000"
+                            app:errorEnabled="true">
+
+                            <EditText
+                                android:id="@+id/address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="18dp"
+                                android:drawablePadding="5dp"
+                                android:drawableTint="@color/colorPrimaryDark"
+                                android:hint="Enter Your Address"
+                                android:inputType="text"
+                                android:singleLine="true"
+                                android:textColorHint="@color/colorPrimaryDark" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/buttongrad"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
