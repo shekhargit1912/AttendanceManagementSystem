@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/poi-ooxml-3.15.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/poi-ooxml-3.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
