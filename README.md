@@ -6,4 +6,5 @@ parents based on the student selected.
 * Created app for SVMK, Khardi government school which is sponsered and it reduced 89 percent paper work
 
 ###  ScreenShots
+<img src="imaged/splash.jpeg" width="171" height="290">  <img src="imaged/Loginpage.jpeg" width="171" height="290">
 
